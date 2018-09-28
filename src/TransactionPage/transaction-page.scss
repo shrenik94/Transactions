@@ -1,0 +1,17 @@
+.transcation-page{
+    font-family: sans-serif;
+    font-size: 13px;
+    > div{
+        display: flex;
+        padding: 3px 12px;
+        span{
+            &:nth-child(1){
+                font-weight: bold;                
+            }
+        }
+    }
+}
+.back {
+    float: right;
+    margin: 5%;
+}
